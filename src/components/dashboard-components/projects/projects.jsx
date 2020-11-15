@@ -53,10 +53,10 @@ const Projects = () => {
                                 <div className="d-flex no-block align-items-center">
                                     <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45" /></div>
                                     <div className="">
-                                        <h5 className="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
+                                        <h5 className="mb-0 font-16 font-medium">Amit Sehgal</h5><span>amit@gmail.com</span></div>
                                 </div>
                             </td>
-                            <td>Santorini, Greece</td>
+                            <td>Madeira</td>
 
                             <td>12</td>
                             <td className="blue-grey-text  text-darken-4 font-medium">$950</td>
@@ -66,10 +66,10 @@ const Projects = () => {
                                 <div className="d-flex no-block align-items-center">
                                     <div className="mr-2"><img src={img2} alt="user" className="rounded-circle" width="45" /></div>
                                     <div className="">
-                                        <h5 className="mb-0 font-16 font-medium">Pranjal Tiwari</h5><span>pranjal@gmail.com</span></div>
+                                        <h5 className="mb-0 font-16 font-medium">Ronit Mukherjee</h5><span>ronit@gmail.com</span></div>
                                 </div>
                             </td>
-                            <td>Brisbane, Australia</td>
+                            <td>Amsterdam</td>
 
 
                             <td>18</td>
@@ -80,10 +80,10 @@ const Projects = () => {
                                 <div className="d-flex no-block align-items-center">
                                     <div className="mr-2"><img src={img3} alt="user" className="rounded-circle" width="45" /></div>
                                     <div className="">
-                                        <h5 className="mb-0 font-16 font-medium">Vishesh Kadian</h5><span>vishesh@gmail.com</span></div>
+                                        <h5 className="mb-0 font-16 font-medium">Dana Gant</h5><span>dana@gmail.com</span></div>
                                 </div>
                             </td>
-                            <td>Prague, Czech Republic</td>
+                            <td>Iceland</td>
                             <td>7</td>
                             <td className="blue-grey-text  text-darken-4 font-medium">$96K</td>
                         </tr>
@@ -95,7 +95,7 @@ const Projects = () => {
                                         <h5 className="mb-0 font-16 font-medium">Nirmal Prabhu</h5><span>nirmal@gmail.com</span></div>
                                 </div>
                             </td>
-                            <td>Udaipur, India</td>
+                            <td>Jaipur, India</td>
                             <td>4</td>
                             <td className="blue-grey-text  text-darken-4 font-medium">$2.5K</td>
                         </tr>

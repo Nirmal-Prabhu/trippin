@@ -1,9 +1,8 @@
 import Starter from '../views/starter/starter.jsx';
-// ui components
-import Alerts from '../views/ui-components/alert.jsx';
-import Badges from '../views/ui-components/badge.jsx';
-import Buttons from '../views/ui-components/button.jsx';
-import Cards from '../views/ui-components/cards.jsx';
+import BlogMain from '../components/Blog/blogmain.js';
+import People from '../components/People/peoplepage.js';
+import Places from '../components/Places/placespage.js';
+
 
 var ThemeRoutes = [
   { 
@@ -13,29 +12,18 @@ var ThemeRoutes = [
     component: Starter 
   },
   {
-    path: '/alert',
+    path: '/places',
     name: 'Places',
-    icon: 'mdi mdi-comment-processing-outline',
-    component: Alerts
+    icon: 'mdi mdi-earth',
+    component: Places
   },
   {
-    path: '/badge',
+    path: '/people',
     name: 'People',
-    icon: 'mdi mdi-arrange-send-backward',
-    component: Badges
-  },
-  {
-    path: '/button',
-    name: 'Popular',
-    icon: 'mdi mdi-toggle-switch',
-    component: Buttons
-  },
-  {
-    path: '/card',
-    name: 'Associates',
-    icon: 'mdi mdi-credit-card-multiple',
-    component: Cards
+    icon: 'mdi mdi-human-greeting',
+    component: People
   },
   { path: '/', pathTo: '/dashboard', name: 'Dashboard', redirect: true }
+  
 ];
 export default ThemeRoutes;

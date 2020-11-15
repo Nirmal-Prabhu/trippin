@@ -1,8 +1,4 @@
-/*
-Template Name: Admin Template
-Author: Niravjoshi / Wrappixel
-File: scss
-*/
+
 /**
  * Table Of Content
  *
@@ -391,6 +387,11 @@ fieldset {
     margin: 0;
     border: 0;
 }
+.carousel-item{
+    height: 800px;
+    padding-top: 40px;
+}
+
 
 legend {
     display: block;
@@ -2323,6 +2324,12 @@ select.form-control:focus::-ms-value {
     font-size: inherit;
     line-height: 1.5;
 }
+
+.card {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
 
 .col-form-label-lg {
     padding-top: calc(0.5rem + 1px);
@@ -5646,7 +5653,7 @@ input[type="button"].btn-block {
 .badge {
     display: inline-block;
     padding: 0.35em 0.7em;
-    font-size: 73%;
+    font-size: 140%;
     font-weight: 300;
     line-height: 1;
     text-align: center;
@@ -5654,6 +5661,7 @@ input[type="button"].btn-block {
     vertical-align: baseline;
     border-radius: 2px;
 }
+
 
 .badge:empty {
     display: none;
@@ -6893,6 +6901,7 @@ button.close {
     width: 100%;
     overflow: hidden;
 }
+
 
 .carousel-item {
     position: relative;
@@ -10946,6 +10955,18 @@ a.text-inverse:focus {
         widows: 3;
     }
 
+    root: {
+        flexGrow: 1,
+      },
+    
+    menuButton: {
+        marginRight: theme.spacing(2),
+      },
+    
+    title: {
+        flexGrow: 1,
+      },
+
     h2,
     h3 {
         page-break-after: avoid;
@@ -11064,6 +11085,8 @@ a.text-inverse:focus {
 .stroke-success {
     stroke: #2dce89;
 }
+
+
 
 .fill-info {
     fill: #2962ff;
@@ -12921,7 +12944,7 @@ Preloader
 }
 
 #main-wrapper[data-layout='vertical'][data-sidebartype='iconbar'] .page-wrapper {
-    margin-left: 180px;
+    margin-left: 80px;
 }
 
 #main-wrapper[data-layout='vertical'][data-sidebartype='iconbar'] .left-sidebar,
@@ -13134,8 +13157,9 @@ Preloader
 .topbar {
     position: relative;
     z-index: 50;
-    background: #fff;
+    background: rgb(252, 249, 249);
     height: 64px;
+    font: var(--danger);
 }
 
 .topbar .navbar-collapse {
@@ -13192,7 +13216,7 @@ Preloader
 
 .topbar .nav-toggler,
 .topbar .topbartoggler {
-    color: #fff;
+    color: rgb(202, 25, 25);
     padding: 0 15px;
     border: 0;
 }
@@ -13255,7 +13279,7 @@ Designed dropdown
 }
 
 .topbar .dropdown-menu .with-arrow>span {
-    background-color: #fff;
+    background-color: rgb(197, 19, 19);
     width: 15px;
     height: 15px;
     top: 3px;

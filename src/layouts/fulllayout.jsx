@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import Header from '../components/header/header.jsx';
 import Sidebar from '../components/sidebar/sidebar.jsx';
 import ThemeRoutes from '../routes/routing.jsx';
+import Footer from "components/Footer/Footer.js";
 
 const Fulllayout = (props) => {
     /*--------------------------------------------------------------------------------*/
@@ -89,8 +90,10 @@ const Fulllayout = (props) => {
                         })}
                     </Switch>
                 </div>
+                <Footer />
             </div>
         </div>
+        
     );
 }
 export default Fulllayout;
